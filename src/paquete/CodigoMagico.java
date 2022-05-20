@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class CodigoMagico {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Introduce texto, se imprimirán las primeras cuatro letras");
+		System.out.println("Introduce texto, se imprimirï¿½n las primeras cuatro letras");
 		String texto = sc.next();
-		System.out.println(texto.substring(1, 4));
-		/*El substring debería ser (0, 4) en vez de (1, 4)*/
+		System.out.println(texto.substring(0, 4));
+		/*El substring deberï¿½a ser (0, 4) en vez de (1, 4)*/
 		sc.close();
 	}
 }
